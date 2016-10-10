@@ -22,3 +22,18 @@ p {
 	line-height: 19px;
 	font-weight: 100;
 }
+
+/* Grid */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+
+.container: before,
+.container: after {
+	content: " ";
+	display: table;
+}
