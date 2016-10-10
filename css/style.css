@@ -37,3 +37,15 @@ p {
 	content: " ";
 	display: table;
 }
+
+.container: after {
+	clear: both;
+}
+
+.one-half, .one-third, .one-forth {
+	width: 96%;
+	float: left;
+	position: relative;
+	min-width: 1px;
+	margin: 0 2% 20px;
+}
