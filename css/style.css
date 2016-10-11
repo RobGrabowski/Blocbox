@@ -184,5 +184,27 @@ header nav ul > li {
 	letter-spacing: 0px;
  }
 
-
+ /* BENEFITS */
+ .benefits {
+ 	text-align: center;
+ 	display: block;
+ 	position: relative;
+ }
+ .benefits ul {
+    margin: 0 auto;
+    padding:4em 0;
+ }
+ .benefits ul li {
+    list-style-type: none;
+    display: inline-block;
+ }
+ .benefits i {
+    color:#036564;
+    font-size:60px;
+    margin:0;
+    vertical-align: middle;
+ }
+ .benefits h2 {
+    color:#036564;
+ }
 
