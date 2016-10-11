@@ -221,6 +221,7 @@ header nav ul > li {
     background-size:cover;
     text-align: center;
     padding: 4em 0;
+    display: block;
 
   }
   .pricing h2, .pricing p {
@@ -270,5 +271,7 @@ header nav ul > li {
 	font-family: Roboto-Regular;
 	font-size: 18px;
 	letter-spacing: 0px;
+	opacity: 0.8;
+
  }
 
