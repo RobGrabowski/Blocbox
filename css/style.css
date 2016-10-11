@@ -23,6 +23,10 @@ p {
 	font-weight: 100;
 }
 
+main {
+	background-color: #FFFAF2;
+}
+
 /* Grid */
 .container {
 	margin-right: auto;
