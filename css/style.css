@@ -42,7 +42,7 @@ p {
 	clear: both;
 }
 
-.one-half, .one-third, .one-fourth {
+.one-half, .one-third, .one-forth {
    width:96%;
    float:left;
    position:relative;
