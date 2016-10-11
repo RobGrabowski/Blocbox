@@ -324,11 +324,16 @@ header nav ul > li {
    color:#FFFFFF;
    text-align: left;
    font-style: italic;
-   background:#036564;
    position: relative;
    padding:30px;
    width:auto;
    margin:0;
+   background: #344953;
+   /* Mask: */
+	opacity: 0.8;
+	background-image: linear-gradient(-45deg, #033649 0%, #033649 100%);
+	border: 1px solid #344953;
+	
  }
  .testimonials blockquote:after {
    top: 100%;
@@ -339,7 +344,8 @@ header nav ul > li {
    width: 0;
    position: absolute;
    pointer-events: none;
-   border-top-color: #036564;
+   border-top-color: #033649;
+
    border-width: 10px;
    margin-left: -10px;
  }
