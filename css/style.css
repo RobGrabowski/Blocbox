@@ -258,7 +258,7 @@ header nav ul > li {
    margin:0 -15px 40px;
    padding:10px 0;
  }
- .box h3 .btn {
+ .box.btn {
  	border-radius: 4px;
  	background-image: linear-gradient(-45deg, #033649 0%, #033649 100%);
  	/*  font-weight: 700; */
