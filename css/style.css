@@ -74,8 +74,36 @@ p {
 @media (min-width: 1200px) {
 	.container {
 		width: 1170px;
-	}
+	}	
 }
+
+@media tv and (min-width: 1280px) {
+	.container {
+		width: 1024px;
+	}
+	h2 {
+		font-size: 30px; 
+		font-weight: normal;
+		margin-bottom: 5px;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 19px;
+		font-weight: 100;
+	}
+	header .hero h1 {
+	    font-size: 51px;
+	    font-weight: normal;
+	    margin:95px 0 0;
+	 }
+	header .hero p {
+	    font-size: 24px;
+	    line-height: 26px;
+	    font-weight: 100;
+	    margin:10px 0 40px;
+	}
+} 
 /* HEADER */
 header {
 	color: #ffffff;
