@@ -56,6 +56,9 @@ main {
    margin:0 2% 20px;
  }
 
+
+
+
 @media (min-width: 768px) {
 	.container {
 		width: 750px;
@@ -173,6 +176,8 @@ header nav ul > li {
  header .hero img {
     display: block;
     margin:3em auto 0;
+    max-width: 100%;
+    height: auto;
  }
 
  /* BUTTONS */
@@ -228,6 +233,10 @@ header nav ul > li {
   }
   .pricing h2, .pricing p {
     color:#FFFFFF;
+    margin: 0 auto;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 20px;
  }
  .pricing ul {
      margin:0 auto;
@@ -278,7 +287,7 @@ header nav ul > li {
     font-size:50px;
     font-weight: normal;
     margin:40px 0 10px;
-    color:#3498DB;
+    color:#036564;
  }
  .box h4 span {
     font-size:32px;
@@ -402,6 +411,47 @@ footer {
    margin: 0 auto;
    display: block;
  }
+ @media (min-width: 320px) {
+	.one-half {
+		text-align: center;
+	}
+	.one-half ul {
+		text-align: center;
+	    float: none;
+	    padding: 0;
+	}
+	footer {
+		height: 200px;
+		background-image: linear-gradient(to top, #036564 0%, #036564 100%, #033649 0%, #033649 100%);
+		padding-bottom: 20px;
+	}
+	footer .link-block ul {
+		padding: 0;
+	}
+	footer .logo {
+		padding: 0;
+		margin: 20px auto 20px;
+		display: block; 
+	}
+	.pricing h2, .pricing p {
+	    margin: 0 auto;
+	    width: auto;
+	}
+	header .hero h1 {
+	    font-size: 36px;
+	    font-weight: normal;
+	    margin:95px 0 0;
+	 }
+	header .hero p {
+	    font-size: 18px;
+	    line-height: 26px;
+	    font-weight: 100;
+	    margin:10px 0 40px;
+	}
+}
+
+
+ 
 @media (min-width: 992px){
    footer{
      background-color: #033649;
@@ -411,13 +461,28 @@ footer {
    }
    footer p, footer nav ul{
      padding: 2em 0;
-     text-align: left;
+     text-align: center;
    }
    footer .right-footer-block {
      background-color: #036564;
      opacity: 50%;
    }
+   footer .link-block ul {
+		padding: 2em 0;
+	}
    footer .logo{
-     padding: 2em 0 2em 1.5em;
+     padding: 0em 0 2em 1.5em;
    }
  }
+ @media (min-width: 1024px){
+   footer{
+     background-color: #033649;
+     background-image: linear-gradient(to left,
+        #036564 0%, #036564 33.33337%, #033649 33.33337%, #033649 100%);
+     height: 100px;
+   }
+   
+ }
+
+
+ 
